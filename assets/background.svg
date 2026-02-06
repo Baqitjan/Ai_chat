@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="400" viewBox="0 0 1200 400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .move {
+      animation: move 20s linear infinite;
+    }
+
+    @keyframes move {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-400px); }
+    }
+  </style>
+
+  <rect width="1200" height="400" fill="#0f172a"/>
+
+  <g class="move" opacity="0.3">
+    <circle cx="100" cy="200" r="80" fill="#1e293b"/>
+    <circle cx="400" cy="100" r="120" fill="#1e293b"/>
+    <circle cx="800" cy="250" r="100" fill="#1e293b"/>
+    <circle cx="1100" cy="150" r="90" fill="#1e293b"/>
+  </g>
+
+</svg>

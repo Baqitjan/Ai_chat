@@ -1,0 +1,25 @@
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+.pub-cache/
+
+# Build results
+build/
+app/build/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+
+# Other
+*.log
+*.lock
+
+# Sensitive information - add your own files here
+# For example:
+# secrets.json
+# .env
